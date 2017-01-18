@@ -1,0 +1,96 @@
+$color-primary-1: #ff553e;
+$color-primary-2: #414BFA;
+$color-white: #fff;
+$color-medium-grey: #E6E4E3;
+$color-light-grey: #F5F3F1;
+
+.cloud-pricing {
+  .pricing {
+    &__intro {
+      text-align: center;
+    }
+
+    &__tabs {
+      text-align: center;
+
+      &--tab {
+        width: 200px;
+        font-size: 16px;
+        font-size: 1rem;
+        border: 4px solid $color-primary-1;
+        background-color: transparent;
+        color: $color-primary-1;
+        font-weight: 400;
+        padding: 0.8em;
+        text-align: center;
+        line-height: 1;
+        display: inline-block;
+        transition: all 0.2s ease-out;
+
+        &.is-active {
+          background-color: $color-primary-1;
+          color: $color-white;
+        }
+      }
+    }
+
+    &__packages {
+      border-top: 1px solid $color-medium-grey;
+      display: flex;
+
+      &--headline {
+        text-align: center;
+      }
+    }
+
+    &__package-features {
+      flex: 1 1 25%;
+
+      &--body {
+        margin-top: 200px;
+        border-bottom: 1px solid $color-medium-grey;
+      }
+
+      &--cell {
+        border-top: 1px solid $color-medium-grey;
+        padding: 10px;
+        min-height: 60px;
+      }
+    }
+
+    &__package {
+      flex: 1 1 20%;
+      text-align: center;
+      border-left: 1px solid $color-medium-grey;
+
+      &--highlighted {
+        background: $color-light-grey;
+      }
+
+      &--header {
+        height: 200px;
+      }
+
+      &--body {}
+
+      &--cell {
+        border-top: 1px solid $color-medium-grey;
+        padding: 10px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &--footer {
+        border-top: 1px solid $color-medium-grey;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    }
+
+  }
+}
