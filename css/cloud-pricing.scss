@@ -13,6 +13,15 @@ $color-light-grey: #F5F3F1;
 
 //
 //
+// Icons paths
+//
+$ic-base-path: "/images/pricing-page-icons/";
+$ic-close: $ic-base-path + "ic-close.svg";
+$ic-question-mark: $ic-base-path + "ic-question-mark.svg";
+$ic-attention: $ic-base-path + "ic-attention.svg";
+
+//
+//
 // Media queries
 //
 
@@ -109,7 +118,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
     height: 20px;
     line-height: 20px;
     border-radius: 50%;
-    background-image: url("/images/pricing-page-icons/ic-question-mark.svg");
+    background-image: url($ic-question-mark);
   }
 
   .feature-info-popover {
@@ -152,7 +161,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
       position: absolute;
       right: 15px;
       top: 15px;
-      background-image: url("/images/pricing-page-icons/ic-close.svg");
+      background-image: url($ic-close);
       @media #{$smallMax} {
         right: 10px;
         top: 10px;
@@ -257,6 +266,12 @@ $xlargeMin: "screen and (min-width: 1801px)";
           right: -180px;
           top: 75px;
         }
+      }
+
+      &--companies {
+        height: 90px;
+        padding: 32px 10px 0;
+        @media #{$xsmallMax} {}
       }
     }
 
@@ -378,6 +393,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
     &__body {
       @media #{$xsmallMax} {
         display: flex;
+        flex-wrap: wrap;
       }
     }
 
@@ -410,6 +426,24 @@ $xlargeMin: "screen and (min-width: 1801px)";
         }
       }
 
+      &--companies {
+        height: 90px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @media #{$mediumMax} {
+          height: 120px;
+          display: flex;
+        }
+        @media #{$xsmallMax} {
+          height: 90px;
+          flex: 1 1 100%;
+          flex-direction: column;
+        }
+      }
+
       img {
         vertical-align: middle;
         position: relative;
@@ -425,6 +459,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
       color: $color-dark-grey;
       font-size: 13px;
       font-weight: 600;
+      padding-bottom: 5px;
       @media #{$mediumMax} {
         display: block;
       }
@@ -607,7 +642,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
           top: -16px;
           bottom: -16px;
           background-color: $color-primary-2;
-          background-image: url("/images/pricing-page-icons/ic-attention.svg");
+          background-image: url($ic-attention);
           background-position: center;
           background-repeat: no-repeat;
           @media #{$smallMax} {
