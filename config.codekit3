@@ -21,12 +21,6 @@
 		"oAP": "\/_partials\/_pricing-block-marketing-and-cms.html",
 		"oF": 0
 		},
-	"\/_partials\/_pricing-intro.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_partials\/_pricing-intro.html",
-		"oF": 0
-		},
 	"\/_partials\/_pricing-popover-template.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -189,18 +183,6 @@
 		"oAP": "\/_shared\/site-header.html",
 		"oF": 0
 		},
-	"\/ascend-usa.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/ascend-usa.html",
-		"oF": 0
-		},
-	"\/cms.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/cms.html",
-		"oF": 0
-		},
 	"\/css\/cloud-pricing.css": {
 		"aP": 0,
 		"bl": 0,
@@ -263,12 +245,6 @@
 		"oAP": "\/css\/site-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/demo-request.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/demo-request.html",
-		"oF": 0
 		},
 	"\/fonts\/SimplonNorm-Light-WebS.woff": {
 		"ft": 8192,
@@ -656,12 +632,6 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/how-to-buy.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/how-to-buy.html",
-		"oF": 0
-		},
 	"\/images\/pricing-page-icons\/ic-attention.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -856,30 +826,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/pages\/ascend-usa.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/ascend-usa.html",
-		"oF": 2
-		},
-	"\/pages\/cms.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/cms.html",
-		"oF": 3
-		},
-	"\/pages\/demo-request.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/demo-request.html",
-		"oF": 3
-		},
-	"\/pages\/how-to-buy.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/how-to-buy.html",
-		"oF": 2
 		},
 	"\/pages\/index.kit": {
 		"ft": 2048,
