@@ -17,6 +17,7 @@ $color-light-grey: #F5F3F1;
 //
 
 // max-width
+$xxxsmallMax: "screen and (max-width: 374px)";
 $xxsmallMax: "screen and (max-width: 568px)";
 $xsmallMax: "screen and (max-width: 768px)";
 $smallMax: "screen and (max-width: 960px)";
@@ -25,9 +26,10 @@ $largeMax: "screen and (max-width: 1400px)";
 $xlargeMax: "screen and (max-width: 1800px)";
 
 // min-widht
+$xxxsmallMin: "screen and (min-width: 375px)";
 $xxsmallMin: "screen and (min-width: 569px)";
 $xsmallMin: "screen and (min-width: 769px)";
-$smallMin: "screen and (max-width: 961px)";
+$smallMin: "screen and (min-width: 961px)";
 $mediumMin: "screen and (min-width: 1201px)";
 $largeMin: "screen and (min-width: 1401px)";
 $xlargeMin: "screen and (min-width: 1801px)";
@@ -80,6 +82,12 @@ $xlargeMin: "screen and (min-width: 1801px)";
     text-overflow: ellipsis;
     text-decoration: none;
     transition: background 0.2s ease-in;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: darken($color-primary-1, 20%);
+    }
   }
 
   .pricing-button-icon {
@@ -106,7 +114,6 @@ $xlargeMin: "screen and (min-width: 1801px)";
 
   .feature-info-popover {
     display: none;
-    max-width: 400px;
     padding: 15px 45px 15px 15px;
     font-weight: 400;
     position: absolute;
@@ -115,6 +122,11 @@ $xlargeMin: "screen and (min-width: 1801px)";
     z-index: 1;
     font-size: 16px;
     font-size: 1rem;
+    max-width: 400px;
+    @media #{$smallMax} {
+      max-width: 220px;
+      padding: 10px 30px 10px 10px;
+    }
 
     &.is-active {
       display: block;
@@ -141,6 +153,10 @@ $xlargeMin: "screen and (min-width: 1801px)";
       right: 15px;
       top: 15px;
       background-image: url("/images/pricing-page-icons/ic-close.svg");
+      @media #{$smallMax} {
+        right: 10px;
+        top: 10px;
+      }
     }
   }
 
@@ -157,13 +173,25 @@ $xlargeMin: "screen and (min-width: 1801px)";
   // .pricing-tabs
   //
   .pricing-tabs {
-    text-align: center;
+    &__inner {
+      border: 2px solid $color-primary-1;
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      width: 400px;
+      @media #{$xsmallMax} {
+        width: 100%;
+      }
+      @media #{$xxxsmallMax} {
+        flex-direction: column;
+      }
+    }
 
     &__tab {
-      width: 200px;
+      width: 100%;
       font-size: 16px;
       font-size: 1rem;
-      border: 4px solid $color-primary-1;
+      border: 2px solid $color-primary-1;
       background-color: transparent;
       color: $color-primary-1;
       font-weight: 400;
@@ -237,9 +265,11 @@ $xlargeMin: "screen and (min-width: 1801px)";
       white-space: nowrap;
       text-overflow: ellipsis;
       padding-right: 30px;
+      font-size: 16px;
+      font-size: 1rem;
     }
 
-    &__toggle-btn {
+    .feature-info-popover__toggle-btn {
       position: absolute;
       right: 10px;
       top: 50%;
@@ -249,7 +279,6 @@ $xlargeMin: "screen and (min-width: 1801px)";
   }
   // .package
   .package {
-
     flex: 1 1 20%;
     text-align: center;
     border-right: 1px solid $color-border;
@@ -410,10 +439,6 @@ $xlargeMin: "screen and (min-width: 1801px)";
       @media #{$xsmallMax} {
         margin: 15px;
       }
-
-      &:hover {
-        background: darken($color-primary-1, 20%);
-      }
     }
   }
 
@@ -423,6 +448,43 @@ $xlargeMin: "screen and (min-width: 1801px)";
   //
   .comparison-tables {
     margin: 120px 0;
+
+    &__tabs {
+      border: 2px solid $color-primary-1;
+      display: flex;
+      flex-direction: row;
+
+      &--flex-wrap {
+        flex-wrap: wrap;
+      }
+      @media #{$xsmallMin} {
+        display: none;
+      }
+    }
+
+    &__tab {
+      width: 50%;
+      display: block;
+      font-size: 16px;
+      font-size: 1rem;
+      border: 2px solid $color-primary-1;
+      background-color: transparent;
+      color: $color-primary-1;
+      font: inherit;
+      font-weight: 400;
+      padding: 0.8em;
+      text-align: center;
+      line-height: 1;
+      transition: all 0.2s ease-out;
+      cursor: default;
+      -webkit-appearance: none;
+      user-select: none;
+
+      &.is-active {
+        background-color: $color-primary-1;
+        color: $color-white;
+      }
+    }
   }
 
   .comparison-table {
@@ -436,7 +498,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
     th {
       padding: 15px;
       empty-cells: show;
-      @media #{$smallMax} {
+      @media #{$xsmallMax} {
         display: none;
       }
 
@@ -449,7 +511,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
     td {
       padding: 12px;
       empty-cells: show;
-      @media #{$smallMax} {
+      @media #{$xsmallMax} {
         display: none;
       }
 
@@ -492,7 +554,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
           }
 
           &.comparison-table__feature-th {
-            .comparison-table__feature-popover {
+            .feature-info-popover-container {
               position: relative;
             }
 
@@ -510,6 +572,10 @@ $xlargeMin: "screen and (min-width: 1801px)";
             .feature-info-popover {
               right: -190px;
               top: 40px;
+              @media #{$smallMax} {
+                right: -100px;
+                top: 50px;
+              }
             }
           }
         }
@@ -528,21 +594,25 @@ $xlargeMin: "screen and (min-width: 1801px)";
 
     &__highlighted-row {
       background-color: $color-light-grey;
-      position: relative;
 
-      &::after {
-        content: '';
-        display: block;
-        width: 30px;
-        height: 55px;
-        position: absolute;
-        right: -28px;
-        background-color: $color-primary-2;
-        background-image: url("/images/pricing-page-icons/ic-attention.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        @media #{$smallMax} {
-          display: none;
+      td:last-child div {
+        position: relative;
+
+        &::after {
+          content: '';
+          display: block;
+          width: 30px;
+          position: absolute;
+          right: -40px;
+          top: -16px;
+          bottom: -16px;
+          background-color: $color-primary-2;
+          background-image: url("/images/pricing-page-icons/ic-attention.svg");
+          background-position: center;
+          background-repeat: no-repeat;
+          @media #{$smallMax} {
+            display: none;
+          }
         }
       }
     }

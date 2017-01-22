@@ -33,6 +33,12 @@
 		"oAP": "\/_partials\/_pricing-packages.html",
 		"oF": 0
 		},
+	"\/_partials\/_pricing-popover-template.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/_pricing-popover-template.html",
+		"oF": 0
+		},
 	"\/_partials\/_pricing-tabs.html": {
 		"ft": 8192,
 		"oA": 1,
