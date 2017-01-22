@@ -1,1 +1,1 @@
-!function($){var l=$(".js-cloud-pricing");0!=l.length&&console.log("Hello pricing page")}(jQuery);
+!function($){var a=$(".js-cloud-pricing");if(0!=a.length)var e=$(".js-package-features")}(jQuery);

@@ -1,78 +1,343 @@
-.cloud-pricing .pricing__intro {
-  text-align: center; }
+.c-product-intro {
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 100% !important; }
 
-.cloud-pricing .pricing__tabs {
-  text-align: center; }
-  .cloud-pricing .pricing__tabs--tab {
-    width: 200px;
-    font-size: 16px;
-    font-size: 1rem;
-    border: 4px solid #ff553e;
-    background-color: transparent;
-    color: #ff553e;
-    font-weight: 400;
-    padding: 0.8em;
-    text-align: center;
-    line-height: 1;
-    display: inline-block;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out; }
-    .cloud-pricing .pricing__tabs--tab.is-active {
-      background-color: #ff553e;
-      color: #fff; }
+.c-event-agenda-overview {
+  background: #fff !important;
+  padding: 0 !important; }
 
-.cloud-pricing .pricing__packages {
-  border-top: 1px solid #E6E4E3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .cloud-pricing .pricing__packages--headline {
+.cloud-pricing {
+  padding-bottom: 10em; }
+  .cloud-pricing .u-text--center {
     text-align: center; }
-
-.cloud-pricing .pricing__package-features {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 25%;
-          flex: 1 1 25%; }
-  .cloud-pricing .pricing__package-features--body {
-    margin-top: 200px;
-    border-bottom: 1px solid #E6E4E3; }
-  .cloud-pricing .pricing__package-features--cell {
-    border-top: 1px solid #E6E4E3;
-    padding: 10px;
-    min-height: 60px; }
-
-.cloud-pricing .pricing__package {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 20%;
-          flex: 1 1 20%;
-  text-align: center;
-  border-left: 1px solid #E6E4E3; }
-  .cloud-pricing .pricing__package--highlighted {
-    background: #F5F3F1; }
-  .cloud-pricing .pricing__package--header {
-    height: 200px; }
-  .cloud-pricing .pricing__package--cell {
-    border-top: 1px solid #E6E4E3;
-    padding: 10px;
-    height: 60px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .cloud-pricing .pricing-button {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    line-height: 1;
+    border: 0;
+    background: #ff553e;
+    color: #fff;
+    font-size: 20px;
+    font-size: 1.25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    transition: background 0.2s ease-in; }
+  .cloud-pricing .pricing-button-icon {
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor: default;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: none;
+    user-select: none;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-image: url("/images/pricing-page-icons/ic-question-mark.svg"); }
+  .cloud-pricing .feature-info-popover {
+    display: none;
+    max-width: 400px;
+    padding: 15px 45px 15px 15px;
+    font-weight: 400;
+    position: absolute;
+    background: #ff553e;
+    color: #fff;
+    z-index: 1;
+    font-size: 16px;
+    font-size: 1rem; }
+    .cloud-pricing .feature-info-popover.is-active {
+      display: block; }
+    .cloud-pricing .feature-info-popover::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 10px;
+      left: 50%;
+      border-top-width: 0;
+      top: -10px;
+      margin-left: -10px;
+      border-bottom-color: #ff553e; }
+    .cloud-pricing .feature-info-popover__close-btn {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      background-image: url("/images/pricing-page-icons/ic-close.svg"); }
+  .cloud-pricing .pricing-intro {
+    text-align: center; }
+  .cloud-pricing .pricing-tabs {
+    text-align: center; }
+    .cloud-pricing .pricing-tabs__tab {
+      width: 200px;
+      font-size: 16px;
+      font-size: 1rem;
+      border: 4px solid #ff553e;
+      background-color: transparent;
+      color: #ff553e;
+      font-weight: 400;
+      padding: 0.8em;
+      text-align: center;
+      line-height: 1;
+      display: inline-block;
+      transition: all 0.2s ease-out; }
+      .cloud-pricing .pricing-tabs__tab.is-active {
+        background-color: #ff553e;
+        color: #fff; }
+  .cloud-pricing .packages__inner {
+    margin-top: 60px;
+    border-top: 1px solid #ccc;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-  .cloud-pricing .pricing__package--footer {
-    border-top: 1px solid #E6E4E3;
-    height: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    flex-direction: row; }
+    @media screen and (max-width: 768px) {
+      .cloud-pricing .packages__inner {
+        margin-top: 0;
+        border-top: none;
+        flex-direction: column; } }
+  .cloud-pricing .package-features {
+    flex: 1 1 25%;
+    border-right: 1px solid #ccc; }
+    @media screen and (max-width: 1200px) {
+      .cloud-pricing .package-features {
+        display: none; } }
+    .cloud-pricing .package-features__body {
+      margin-top: 300px;
+      border-bottom: 1px solid #ccc; }
+    .cloud-pricing .package-features__cell {
+      position: relative;
+      border-top: 1px solid #ccc;
+      padding: 18px 10px;
+      height: 60px; }
+      .cloud-pricing .package-features__cell .feature-info-popover {
+        right: -180px;
+        top: 60px; }
+      .cloud-pricing .package-features__cell--large {
+        height: 90px;
+        padding: 33px 10px; }
+        .cloud-pricing .package-features__cell--large .feature-info-popover {
+          right: -180px;
+          top: 75px; }
+    .cloud-pricing .package-features__label {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      padding-right: 30px; }
+    .cloud-pricing .package-features__toggle-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-10px); }
+  .cloud-pricing .package {
+    flex: 1 1 20%;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    @media screen and (max-width: 768px) {
+      .cloud-pricing .package {
+        border: 1px solid #ccc;
+        margin-top: 60px; } }
+    @media screen and (min-width: 769px) {
+      .cloud-pricing .package:last-child {
+        border-right: none; } }
+    .cloud-pricing .package--highlighted {
+      background: #F5F3F1; }
+      @media screen and (max-width: 768px) {
+        .cloud-pricing .package--highlighted {
+          margin-top: 90px; } }
+    .cloud-pricing .package__header {
+      padding-top: 10px;
+      position: relative;
+      height: 300px; }
+      @media screen and (max-width: 768px) {
+        .cloud-pricing .package__header {
+          height: auto;
+          padding: 30px 0; } }
+    .cloud-pricing .package__highlighted-label {
+      position: absolute;
+      top: -30px;
+      left: -1px;
+      right: -1px;
+      font-size: 13px;
+      padding-top: 6px;
+      height: 30px;
+      background: #05149B;
+      color: #fff;
+      border: 1px solid #ccc;
+      border-width: 1px 1px 0; }
+    .cloud-pricing .package__title {
+      font-size: 24px;
+      font-size: 1.5rem;
+      margin: 25px; }
+      @media screen and (max-width: 768px) {
+        .cloud-pricing .package__title {
+          text-align: left;
+          margin: 0 15px; } }
+    .cloud-pricing .package__lv-icon {
+      margin-top: 35px;
+      width: 100%;
+      height: 150px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center; }
+      @media screen and (max-width: 768px) {
+        .cloud-pricing .package__lv-icon {
+          height: auto;
+          margin: 0; } }
+      .cloud-pricing .package__lv-icon img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 50px; }
+        @media screen and (max-width: 768px) {
+          .cloud-pricing .package__lv-icon img {
+            position: absolute;
+            top: 15px;
+            right: 15px; } }
+      @media screen and (min-width: 769px) {
+        .cloud-pricing .package__lv-icon--one img {
+          height: 75px; }
+        .cloud-pricing .package__lv-icon--two img {
+          height: 100px; }
+        .cloud-pricing .package__lv-icon--three img {
+          height: 125px; }
+        .cloud-pricing .package__lv-icon--four img {
+          height: 150px; } }
+    @media screen and (max-width: 768px) {
+      .cloud-pricing .package__body {
+        display: flex; } }
+    .cloud-pricing .package__cell {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      border-top: 1px solid #ccc;
+      height: 60px;
+      padding: 18px 5px 0; }
+      @media screen and (max-width: 1200px) {
+        .cloud-pricing .package__cell {
+          display: none; } }
+      .cloud-pricing .package__cell--large {
+        height: 90px;
+        padding: 32px 10px 0; }
+        @media screen and (max-width: 1200px) {
+          .cloud-pricing .package__cell--large {
+            display: block;
+            height: auto;
+            padding: 15px 5px; } }
+        @media screen and (max-width: 768px) {
+          .cloud-pricing .package__cell--large {
+            flex: 1 1 33.333%;
+            border-left: 1px solid #ccc; }
+            .cloud-pricing .package__cell--large:first-child {
+              border-left: none; } }
+      .cloud-pricing .package__cell img {
+        vertical-align: middle;
+        position: relative;
+        top: -4px; }
+    .cloud-pricing .package__cell-title {
+      display: none;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: #7b7a79;
+      font-size: 13px;
+      font-weight: 600; }
+      @media screen and (max-width: 1200px) {
+        .cloud-pricing .package__cell-title {
+          display: block; } }
+    .cloud-pricing .package__footer {
+      border-top: 1px solid #ccc; }
+    .cloud-pricing .package__cta-button {
+      margin: 30px; }
+      @media screen and (max-width: 768px) {
+        .cloud-pricing .package__cta-button {
+          margin: 15px; } }
+      .cloud-pricing .package__cta-button:hover {
+        background: #d71a00; }
+  .cloud-pricing .comparison-tables {
+    margin: 120px 0; }
+  .cloud-pricing .comparison-table {
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+    font-size: 1rem; }
+    .cloud-pricing .comparison-table th {
+      padding: 15px;
+      empty-cells: show; }
+      @media screen and (max-width: 960px) {
+        .cloud-pricing .comparison-table th {
+          display: none; } }
+      .cloud-pricing .comparison-table th.is-active, .cloud-pricing .comparison-table th:first-child {
+        display: table-cell; }
+    .cloud-pricing .comparison-table td {
+      padding: 12px;
+      empty-cells: show; }
+      @media screen and (max-width: 960px) {
+        .cloud-pricing .comparison-table td {
+          display: none; } }
+      .cloud-pricing .comparison-table td.is-active, .cloud-pricing .comparison-table td:first-child {
+        display: table-cell; }
+    .cloud-pricing .comparison-table thead tr {
+      border-bottom: 1px solid #ccc; }
+      .cloud-pricing .comparison-table thead tr th {
+        padding: 30px 15px; }
+        .cloud-pricing .comparison-table thead tr th h4 {
+          margin: 0; }
+        .cloud-pricing .comparison-table thead tr th:not(:first-child) {
+          border-left: 1px solid #ccc; }
+    .cloud-pricing .comparison-table tbody tr {
+      border-bottom: 1px solid #ccc; }
+      .cloud-pricing .comparison-table tbody tr th {
+        width: 30%;
+        text-align: left;
+        font-weight: 400; }
+        .cloud-pricing .comparison-table tbody tr th.comparison-table__sub-table-header {
+          padding-top: 60px; }
+        .cloud-pricing .comparison-table tbody tr th.comparison-table__feature-th .comparison-table__feature-popover {
+          position: relative; }
+        .cloud-pricing .comparison-table tbody tr th.comparison-table__feature-th .comparison-table__feature-title {
+          padding-right: 30px; }
+        .cloud-pricing .comparison-table tbody tr th.comparison-table__feature-th .feature-info-popover__toggle-btn {
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-10px); }
+        .cloud-pricing .comparison-table tbody tr th.comparison-table__feature-th .feature-info-popover {
+          right: -190px;
+          top: 40px; }
+      .cloud-pricing .comparison-table tbody tr td {
+        width: 17.5%;
+        text-align: center;
+        border-left: 1px solid #ccc; }
+        .cloud-pricing .comparison-table tbody tr td img {
+          vertical-align: middle; }
+    .cloud-pricing .comparison-table__highlighted-row {
+      background-color: #F5F3F1;
+      position: relative; }
+      .cloud-pricing .comparison-table__highlighted-row::after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 55px;
+        position: absolute;
+        right: -28px;
+        background-color: #05149B;
+        background-image: url("/images/pricing-page-icons/ic-attention.svg");
+        background-position: center;
+        background-repeat: no-repeat; }
+        @media screen and (max-width: 960px) {
+          .cloud-pricing .comparison-table__highlighted-row::after {
+            display: none; } }

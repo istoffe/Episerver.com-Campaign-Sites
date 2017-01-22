@@ -3,45 +3,58 @@
 <div class="l-main">
   <div>
     <!-- @import "/_shared/site-header.html" -->
-
-    <!--(KARL LÖFHOLM) CLOUD PRICING CONTENT START-->
-    <div class="block cloudpricingblock">
-      <div class="cloud-pricing js-cloud-pricing box-margin">
-        <!-- @import "/_partials/_pricing-intro.html" -->
-        <!-- @import "/_partials/_pricing-tabs.html" -->
-        <!-- @import "/_partials/_pricing-packages.html" -->
-        <!-- @import "/_partials/_pricing-comparison-table.html" -->
+    <div class="l-container">
+      <ul class="breadcrumb-main">
+        <li class="breadcrumb-main__list-item">
+          <a class="breadcrumb-main__link" href="/">Start</a> <span class="breadcrumb-main__divider">/</span>
+        </li>
+        <li class="breadcrumb-main__list-item">
+          <a class="breadcrumb-main__link" href="/cms/">CMS</a> <span class="breadcrumb-main__divider">/</span>
+        </li>
+        <li class="breadcrumb-main__list-item breadcrumb-main__list-item--active">Pricing Test</li>
+      </ul>
+    </div>
+    <div class="l-container">
+      <div class="c-product-intro">
+        <h1 class="c-product-intro__heading">Digital Experience Cloud Levels</h1>
+        <div class="c-product-intro__text preamble">Choose the level thats right for you.</div>
       </div>
     </div>
 
-    <!-- (KARL LÖFHOLM) CLOUD PRICING CONTENT END -->
+    <div class="c-media"></div>
 
-    <!-- (KARL LÖFHOLM) CLOUD PRICING JS START -->
-    <!-- Run JS after all content so to make sure it's loaded -->
-    <script src="js/cloud-pricing.js"></script>
-    <!-- (KARL LÖFHOLM) CLOUD PRICING JS END -->
-
-    <div class="block supportlinksblock">
-      <ul class="l-bottom-links">
-        <li class="l-bottom-links__item">
-          <a href="/actions/Contact-us/" class="c-bottom-link c-bottom-link--primary">
-            <h3 class="c-bottom-link__heading">Need help?</h3>
-            <div class="c-bottom-link__text">Contact sales</div>
-          </a>
-        </li>
-        <li class="l-bottom-links__item">
-          <a href="/actions/demo-requests/demo/" class="c-bottom-link c-bottom-link--secondary">
-            <h3 class="c-bottom-link__heading">Want to know more?</h3>
-            <div class="c-bottom-link__text">Request a demo</div>
-          </a>
-        </li>
-        <li class="l-bottom-links__item">
-          <a href="/services/support/" class="c-bottom-link c-bottom-link--tertiary">
-            <h3 class="c-bottom-link__heading">Already a customer?</h3>
-            <div class="c-bottom-link__text">Contact our support</div>
-          </a>
-        </li>
-      </ul>
+    <div>
+      <div class="block eventagendaoverviewblock">
+        <div class="c-event-agenda-overview">
+          <div class="l-container">
+            <div class="c-event-agenda-overview__inner">
+              <!-- @import "/_partials/_pricing-block.kit" -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block supportlinksblock">
+        <ul class="l-bottom-links">
+          <li class="l-bottom-links__item">
+            <a href="/Actions/Kontakta-oss/" class="c-bottom-link c-bottom-link--primary">
+              <h3 class="c-bottom-link__heading">Behöver du hjälp?</h3>
+              <div class="c-bottom-link__text">Kontakta oss</div>
+            </a>
+          </li>
+          <li class="l-bottom-links__item">
+            <a href="/Actions/demo-requests/boka-demo-generell/" class="c-bottom-link c-bottom-link--secondary">
+              <h3 class="c-bottom-link__heading">Vill du veta mer?</h3>
+              <div class="c-bottom-link__text">Boka en demo</div>
+            </a>
+          </li>
+          <li class="l-bottom-links__item">
+            <a href="/tjanster/supporttjanster/" class="c-bottom-link c-bottom-link--tertiary">
+              <h3 class="c-bottom-link__heading">Redan kund?</h3>
+              <div class="c-bottom-link__text">Kontakta vår support</div>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   <!-- @import "/_shared/footer.html" -->

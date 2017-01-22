@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/_partials\/_pricing-block.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/_partials\/_pricing-block.html",
+		"oF": 0
+		},
 	"\/_partials\/_pricing-comparison-table.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -530,6 +536,150 @@
 		"oAP": "\/how-to-buy.html",
 		"oF": 0
 		},
+	"\/images\/pricing-page-icons\/ic-attention.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-attention.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-attention@2x.png": {
+		"ft": 32768,
+		"iS": 482,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-attention@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pricing-page-icons\/ic-close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-close@2x.png": {
+		"ft": 32768,
+		"iS": 538,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-close@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pricing-page-icons\/ic-done.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-done.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-done@2x.png": {
+		"ft": 32768,
+		"iS": 857,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-done@2x.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-four.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-four.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-four@2x.png": {
+		"ft": 32768,
+		"iS": 12761,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-four@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-one.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-one.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-one@2x.png": {
+		"ft": 32768,
+		"iS": 5873,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-one@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-three.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-three.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-three@2x.png": {
+		"ft": 32768,
+		"iS": 2849,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-three@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-two.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-price-lv-two@2x.png": {
+		"ft": 32768,
+		"iS": 5188,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-two@2x.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/pricing-page-icons\/ic-question-mark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons\/ic-question-mark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pricing-page-icons\/ic-question-mark@2x.png": {
+		"ft": 32768,
+		"iS": 755,
+		"oA": 0,
+		"oAP": "\/images\/pricing-page-icons\/ic-question-mark@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -557,10 +707,10 @@
 	"\/js\/cloud-pricing.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/cloud-pricing-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/site.js": {

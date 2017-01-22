@@ -1,96 +1,550 @@
+
+//
+//
+// Colors
+//
 $color-primary-1: #ff553e;
-$color-primary-2: #414BFA;
+$color-primary-2: #05149B;
 $color-white: #fff;
+$color-border: #ccc;
+$color-dark-grey: #7b7a79;
 $color-medium-grey: #E6E4E3;
 $color-light-grey: #F5F3F1;
 
+//
+//
+// Media queries
+//
+
+// max-width
+$xxsmallMax: "screen and (max-width: 568px)";
+$xsmallMax: "screen and (max-width: 768px)";
+$smallMax: "screen and (max-width: 960px)";
+$mediumMax: "screen and (max-width: 1200px)";
+$largeMax: "screen and (max-width: 1400px)";
+$xlargeMax: "screen and (max-width: 1800px)";
+
+// min-widht
+$xxsmallMin: "screen and (min-width: 569px)";
+$xsmallMin: "screen and (min-width: 769px)";
+$smallMin: "screen and (max-width: 961px)";
+$mediumMin: "screen and (min-width: 1201px)";
+$largeMin: "screen and (min-width: 1401px)";
+$xlargeMin: "screen and (min-width: 1801px)";
+
+//
+//
+// Layout and style fixesoutside the .cloud-pricing container START
+// This is a quickfix in order to be able to add this content (HTML/CSS/JS) directly as a content block
+// REMOVE THESES STYLES IF THIS CSS IS MOVED IN TO THE CODEBASE
+//
+
+.c-product-intro {
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.c-event-agenda-overview {
+  background: #fff !important;
+  padding: 0 !important;
+}
+
+//
+// Layout and style fixesoutside the .cloud-pricing container END
+//
+//
+
 .cloud-pricing {
-  .pricing {
-    &__intro {
-      text-align: center;
+  padding-bottom: 10em;
+  //
+  //
+  // General styles for pricing page
+  //
+  .u-text--center {
+    text-align: center;
+  }
+
+  .pricing-button {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    line-height: 1;
+    border: 0;
+    background: $color-primary-1;
+    color: #fff;
+    font-size: 20px;
+    font-size: 1.25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    transition: background 0.2s ease-in;
+  }
+
+  .pricing-button-icon {
+    background: none;
+    border: 0;
+    color: inherit;
+    cursor: default;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: none;
+    user-select: none;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -9999em;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-image: url("/images/pricing-page-icons/ic-question-mark.svg");
+  }
+
+  .feature-info-popover {
+    display: none;
+    max-width: 400px;
+    padding: 15px 45px 15px 15px;
+    font-weight: 400;
+    position: absolute;
+    background: $color-primary-1;
+    color: $color-white;
+    z-index: 1;
+    font-size: 16px;
+    font-size: 1rem;
+
+    &.is-active {
+      display: block;
     }
 
-    &__tabs {
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 10px;
+      left: 50%;
+      border-top-width: 0;
+      top: -10px;
+      margin-left: -10px;
+      border-bottom-color: $color-primary-1;
+    }
+
+    &__close-btn {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      background-image: url("/images/pricing-page-icons/ic-close.svg");
+    }
+  }
+
+  //
+  //
+  // .pricing-intro
+  //
+  .pricing-intro {
+    text-align: center;
+  }
+
+  //
+  //
+  // .pricing-tabs
+  //
+  .pricing-tabs {
+    text-align: center;
+
+    &__tab {
+      width: 200px;
+      font-size: 16px;
+      font-size: 1rem;
+      border: 4px solid $color-primary-1;
+      background-color: transparent;
+      color: $color-primary-1;
+      font-weight: 400;
+      padding: 0.8em;
       text-align: center;
+      line-height: 1;
+      display: inline-block;
+      transition: all 0.2s ease-out;
 
-      &--tab {
-        width: 200px;
-        font-size: 16px;
-        font-size: 1rem;
-        border: 4px solid $color-primary-1;
-        background-color: transparent;
-        color: $color-primary-1;
-        font-weight: 400;
-        padding: 0.8em;
-        text-align: center;
-        line-height: 1;
-        display: inline-block;
-        transition: all 0.2s ease-out;
+      &.is-active {
+        background-color: $color-primary-1;
+        color: $color-white;
+      }
+    }
+  }
 
-        &.is-active {
-          background-color: $color-primary-1;
-          color: $color-white;
+  //
+  //
+  // .packages
+  //
+  .packages {
+    &__inner {
+      margin-top: 60px;
+      border-top: 1px solid $color-border;
+      display: flex;
+      flex-direction: row;
+      @media #{$xsmallMax} {
+        margin-top: 0;
+        border-top: none;
+        flex-direction: column;
+      }
+    }
+  }
+  // .package-features
+  .package-features {
+    flex: 1 1 25%;
+    border-right: 1px solid $color-border;
+    @media #{$mediumMax} {
+      display: none;
+    }
+
+    &__body {
+      margin-top: 300px;
+      border-bottom: 1px solid $color-border;
+    }
+
+    &__cell {
+      position: relative;
+      border-top: 1px solid $color-border;
+      padding: 18px 10px;
+      height: 60px;
+
+      .feature-info-popover {
+        right: -180px;
+        top: 60px;
+      }
+
+      &--large {
+        height: 90px;
+        padding: 33px 10px;
+
+        .feature-info-popover {
+          right: -180px;
+          top: 75px;
         }
       }
     }
 
-    &__packages {
-      border-top: 1px solid $color-medium-grey;
+    &__label {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      padding-right: 30px;
+    }
+
+    &__toggle-btn {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-10px);
+    }
+
+  }
+  // .package
+  .package {
+
+    flex: 1 1 20%;
+    text-align: center;
+    border-right: 1px solid $color-border;
+    @media #{$xsmallMax} {
+      border: 1px solid $color-border;
+      margin-top: 60px;
+    }
+
+    &:last-child {
+      @media #{$xsmallMin} {
+        border-right: none;
+      }
+    }
+
+    &--highlighted {
+      background: $color-light-grey;
+      @media #{$xsmallMax} {
+        margin-top: 90px;
+      }
+    }
+
+    &__header {
+      padding-top: 10px;
+      position: relative;
+      height: 300px;
+      @media #{$xsmallMax} {
+        height: auto;
+        padding: 30px 0;
+      }
+    }
+
+    &__highlighted-label {
+      position: absolute;
+      top: -30px;
+      left: -1px;
+      right: -1px;
+      font-size: 13px;
+      padding-top: 6px;
+      height: 30px;
+      background: $color-primary-2;
+      color: $color-white;
+      border: 1px solid $color-border;
+      border-width: 1px 1px 0;
+    }
+
+    &__title {
+      font-size: 24px;
+      font-size: 1.5rem;
+      margin: 25px;
+      @media #{$xsmallMax} {
+        text-align: left;
+        margin: 0 15px;
+      }
+    }
+
+    &__lv-icon {
+      margin-top: 35px;
+      width: 100%;
+      height: 150px;
       display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      @media #{$xsmallMax} {
+        height: auto;
+        margin: 0;
+      }
 
-      &--headline {
-        text-align: center;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 50px;
+        @media #{$xsmallMax} {
+          position: absolute;
+          top: 15px;
+          right: 15px;
+        }
+      }
+      @media #{$xsmallMin} {
+        &--one img {
+          height: 75px;
+        }
+
+        &--two img {
+          height: 100px;
+        }
+
+        &--three img {
+          height: 125px;
+        }
+
+        &--four img {
+          height: 150px;
+        }
       }
     }
 
-    &__package-features {
-      flex: 1 1 25%;
-
-      &--body {
-        margin-top: 200px;
-        border-bottom: 1px solid $color-medium-grey;
-      }
-
-      &--cell {
-        border-top: 1px solid $color-medium-grey;
-        padding: 10px;
-        min-height: 60px;
-      }
-    }
-
-    &__package {
-      flex: 1 1 20%;
-      text-align: center;
-      border-left: 1px solid $color-medium-grey;
-
-      &--highlighted {
-        background: $color-light-grey;
-      }
-
-      &--header {
-        height: 200px;
-      }
-
-      &--body {}
-
-      &--cell {
-        border-top: 1px solid $color-medium-grey;
-        padding: 10px;
-        height: 60px;
+    &__body {
+      @media #{$xsmallMax} {
         display: flex;
-        align-items: center;
-        justify-content: center;
+      }
+    }
+
+    &__cell {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      border-top: 1px solid $color-border;
+      height: 60px;
+      padding: 18px 5px 0;
+      @media #{$mediumMax} {
+        display: none;
       }
 
-      &--footer {
-        border-top: 1px solid $color-medium-grey;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      &--large {
+        height: 90px;
+        padding: 32px 10px 0;
+        @media #{$mediumMax} {
+          display: block;
+          height: auto;
+          padding: 15px 5px;
+        }
+        @media #{$xsmallMax} {
+          flex: 1 1 33.333%;
+          border-left: 1px solid $color-border;
+
+          &:first-child {
+            border-left: none;
+          }
+        }
+      }
+
+      img {
+        vertical-align: middle;
+        position: relative;
+        top: -4px;
+      }
+    }
+
+    &__cell-title {
+      display: none;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: $color-dark-grey;
+      font-size: 13px;
+      font-weight: 600;
+      @media #{$mediumMax} {
+        display: block;
+      }
+    }
+
+    &__footer {
+      border-top: 1px solid $color-border;
+    }
+
+    &__cta-button {
+      margin: 30px;
+      @media #{$xsmallMax} {
+        margin: 15px;
+      }
+
+      &:hover {
+        background: darken($color-primary-1, 20%);
+      }
+    }
+  }
+
+  //
+  //
+  // .comparison-table
+  //
+  .comparison-tables {
+    margin: 120px 0;
+  }
+
+  .comparison-table {
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+    border-top: 1px solid $color-border;
+    font-size: 16px;
+    font-size: 1rem;
+
+    th {
+      padding: 15px;
+      empty-cells: show;
+      @media #{$smallMax} {
+        display: none;
+      }
+
+      &.is-active,
+      &:first-child {
+        display: table-cell;
+      }
+    }
+
+    td {
+      padding: 12px;
+      empty-cells: show;
+      @media #{$smallMax} {
+        display: none;
+      }
+
+      &.is-active,
+      &:first-child {
+        display: table-cell;
       }
 
     }
 
+    thead {
+      tr {
+        border-bottom: 1px solid $color-border;
+
+        th {
+          padding: 30px 15px;
+
+          h4 {
+            margin: 0;
+          }
+
+          &:not(:first-child) {
+            border-left: 1px solid $color-border;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid $color-border;
+
+        th {
+          width: 30%;
+          text-align: left;
+          font-weight: 400;
+
+          &.comparison-table__sub-table-header {
+            padding-top: 60px;
+          }
+
+          &.comparison-table__feature-th {
+            .comparison-table__feature-popover {
+              position: relative;
+            }
+
+            .comparison-table__feature-title {
+              padding-right: 30px;
+            }
+
+            .feature-info-popover__toggle-btn {
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-10px);
+            }
+
+            .feature-info-popover {
+              right: -190px;
+              top: 40px;
+            }
+          }
+        }
+
+        td {
+          width: 17.5%;
+          text-align: center;
+          border-left: 1px solid $color-border;
+
+          img {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+
+    &__highlighted-row {
+      background-color: $color-light-grey;
+      position: relative;
+
+      &::after {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 55px;
+        position: absolute;
+        right: -28px;
+        background-color: $color-primary-2;
+        background-image: url("/images/pricing-page-icons/ic-attention.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        @media #{$smallMax} {
+          display: none;
+        }
+      }
+    }
   }
 }
