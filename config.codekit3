@@ -9,16 +9,16 @@
 	],
 "creatorBuild": "25504",
 "files": {
-	"\/_partials\/_pricing-block.kit": {
+	"\/_partials\/_pricing-block-commerce.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/_partials\/_pricing-block.html",
+		"oAP": "\/_partials\/_pricing-block-commerce.html",
 		"oF": 0
 		},
-	"\/_partials\/_pricing-comparison-table.html": {
-		"ft": 8192,
+	"\/_partials\/_pricing-block-marketing-and-cms.kit": {
+		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/_partials\/_pricing-comparison-table.html",
+		"oAP": "\/_partials\/_pricing-block-marketing-and-cms.html",
 		"oF": 0
 		},
 	"\/_partials\/_pricing-intro.html": {
@@ -27,22 +27,46 @@
 		"oAP": "\/_partials\/_pricing-intro.html",
 		"oF": 0
 		},
-	"\/_partials\/_pricing-packages.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_partials\/_pricing-packages.html",
-		"oF": 0
-		},
 	"\/_partials\/_pricing-popover-template.html": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_partials\/_pricing-popover-template.html",
 		"oF": 0
 		},
-	"\/_partials\/_pricing-tabs.html": {
+	"\/_partials\/commerce\/_pricing-comparison-table.html": {
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_partials\/_pricing-tabs.html",
+		"oAP": "\/_partials\/commerce\/_pricing-comparison-table.html",
+		"oF": 0
+		},
+	"\/_partials\/commerce\/_pricing-packages.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/commerce\/_pricing-packages.html",
+		"oF": 0
+		},
+	"\/_partials\/commerce\/_pricing-tabs.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/commerce\/_pricing-tabs.html",
+		"oF": 0
+		},
+	"\/_partials\/marketing-and-cms\/_pricing-comparison-table.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/marketing-and-cms\/_pricing-comparison-table.html",
+		"oF": 0
+		},
+	"\/_partials\/marketing-and-cms\/_pricing-packages.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/marketing-and-cms\/_pricing-packages.html",
+		"oF": 0
+		},
+	"\/_partials\/marketing-and-cms\/_pricing-tabs.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/marketing-and-cms\/_pricing-tabs.html",
 		"oF": 0
 		},
 	"\/_shared\/bottom.html": {
@@ -767,16 +791,28 @@
 		"oAP": "\/index.html",
 		"oF": 3
 		},
-	"\/pages\/pricing.kit": {
+	"\/pages\/pricing-commerce.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/pricing.html",
+		"oAP": "\/pricing-commerce.html",
 		"oF": 2
 		},
-	"\/pricing.html": {
+	"\/pages\/pricing-marketing-and-cms.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/pricing-marketing-and-cms.html",
+		"oF": 2
+		},
+	"\/pricing-commerce.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/pricing.html",
+		"oAP": "\/pricing-commerce.html",
+		"oF": 0
+		},
+	"\/pricing-marketing-and-cms.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pricing-marketing-and-cms.html",
 		"oF": 0
 		}
 	},
