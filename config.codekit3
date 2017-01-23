@@ -63,6 +63,18 @@
 		"oAP": "\/_partials\/commerce\/pricing-comparison-tables\/comparison-table-3.html",
 		"oF": 0
 		},
+	"\/_partials\/commerce\/pricing-comparison-tables\/comparison-table-4.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/commerce\/pricing-comparison-tables\/comparison-table-4.html",
+		"oF": 0
+		},
+	"\/_partials\/commerce\/pricing-comparison-tables\/comparison-table-5.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_partials\/commerce\/pricing-comparison-tables\/comparison-table-5.html",
+		"oF": 0
+		},
 	"\/_partials\/commerce\/pricing-packages\/package-1.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -127,6 +139,18 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_partials\/marketing-and-cms\/pricing-comparison-tables\/comparison-table-3.html",
+		"oF": 0
+		},
+	"\/_partials\/marketing-and-cms\/pricing-comparison-tables\/comparison-table-4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_partials\/marketing-and-cms\/pricing-comparison-tables\/comparison-table-4.html",
+		"oF": 0
+		},
+	"\/_partials\/marketing-and-cms\/pricing-comparison-tables\/comparison-table-5.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_partials\/marketing-and-cms\/pricing-comparison-tables\/comparison-table-5.html",
 		"oF": 0
 		},
 	"\/_partials\/marketing-and-cms\/pricing-packages\/package-1.html": {
@@ -632,6 +656,12 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/images\/pricing-page-icons.zip": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/pricing-page-icons.zip",
+		"oF": 0
+		},
 	"\/images\/pricing-page-icons\/ic-attention.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -856,6 +886,24 @@
 		"oA": 2,
 		"oAP": "\/pricing-marketing-and-cms.html",
 		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
