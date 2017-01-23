@@ -8,6 +8,7 @@
   //
   var initPopovers = function(){
     var $popovers = $('.js-popover');
+
     $popovers.on('click', function(e){
       e.stopPropagation();
     });
@@ -23,7 +24,7 @@
   }
   var setUpPopovers = function(){
     var $popoverTemplate = $('.js-popover-template').clone().remove();
-    // var $popoverContent = $('.js-popover-content').replaceWith($popoverTemplate);
+
     $('.js-popover-content').each(function(){
       var $t = $(this);
       var $popoverTemplateClone = $popoverTemplate.clone();

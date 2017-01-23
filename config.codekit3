@@ -845,6 +845,12 @@
 		"oAP": "\/index.html",
 		"oF": 3
 		},
+	"\/pages\/pricing-commerce-CLEAN.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/pricing-commerce-CLEAN.html",
+		"oF": 2
+		},
 	"\/pages\/pricing-commerce.kit": {
 		"ft": 2048,
 		"oA": 0,
@@ -857,6 +863,18 @@
 		"oAP": "\/pricing-marketing-and-cms.html",
 		"oF": 2
 		},
+	"\/pages\/pricing-marketing-and-cms_CLEAN.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/pricing-marketing-and-cms_CLEAN.html",
+		"oF": 2
+		},
+	"\/pricing-commerce-CLEAN.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pricing-commerce-CLEAN.html",
+		"oF": 0
+		},
 	"\/pricing-commerce.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -867,6 +885,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pricing-marketing-and-cms.html",
+		"oF": 0
+		},
+	"\/pricing-marketing-and-cms_CLEAN.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pricing-marketing-and-cms_CLEAN.html",
 		"oF": 0
 		},
 	"\/README.md": {
