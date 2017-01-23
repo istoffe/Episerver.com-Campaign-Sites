@@ -131,9 +131,9 @@ $xlargeMin: "screen and (min-width: 1801px)";
     z-index: 1;
     font-size: 16px;
     font-size: 1rem;
-    max-width: 400px;
+    width: 400px;
     @media #{$smallMax} {
-      max-width: 220px;
+      width: 220px;
       padding: 10px 30px 10px 10px;
     }
 
@@ -342,6 +342,9 @@ $xlargeMin: "screen and (min-width: 1801px)";
     &__title {
       font-size: 24px;
       font-size: 1.5rem;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
       margin: 25px;
       @media #{$xsmallMax} {
         text-align: left;
