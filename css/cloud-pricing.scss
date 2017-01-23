@@ -15,7 +15,7 @@ $color-light-grey: #F5F3F1;
 //
 // Icons paths
 //
-$ic-base-path: "../images/pricing-page-icons/";
+$ic-base-path: "http://www.episerver.com/globalassets/_scripts/episerver-pricing/";
 $ic-close: $ic-base-path + "ic-close.svg";
 $ic-question-mark: $ic-base-path + "ic-question-mark.svg";
 $ic-attention: $ic-base-path + "ic-attention.svg";
@@ -223,7 +223,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
   //
   .packages {
     &__inner {
-      margin-top: 60px;
+      margin-top: 90px;
       border-top: 1px solid $color-border;
       display: flex;
       flex-direction: row;
@@ -590,6 +590,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
 
           &.comparison-table__sub-table-header {
             padding-top: 60px;
+            font-weight: 600;
           }
 
           &.comparison-table__feature-th {
@@ -599,6 +600,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
 
             .comparison-table__feature-title {
               padding-right: 30px;
+              display: inline-block;
             }
 
             .feature-info-popover__toggle-btn {
