@@ -60,7 +60,9 @@
   // .js-add-attention-icon
   //
   var addAttentionIconForHighlightedRow = function(){
-    $('.js-add-attention-icon td').last().wrapInner('<div/>')
+    $('.js-add-attention-icon').each(function(){
+      $(this).find('td').last().wrapInner('<div/>');
+    });
   }
 
   setUpPopovers();
