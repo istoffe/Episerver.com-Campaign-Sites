@@ -660,7 +660,7 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-attention@2x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/pricing-page-icons\/ic-close.svg": {
 		"ft": 2097152,
@@ -678,7 +678,7 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-close@2x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/pricing-page-icons\/ic-done.svg": {
 		"ft": 2097152,
@@ -786,7 +786,7 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-question-mark@2x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -885,12 +885,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pricing-marketing-and-cms.html",
-		"oF": 0
-		},
-	"\/pricing-marketing-and-cms_CLEAN.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/pricing-marketing-and-cms_CLEAN.html",
 		"oF": 0
 		},
 	"\/README.md": {
