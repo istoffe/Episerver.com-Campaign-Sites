@@ -195,7 +195,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
         width: 100%;
       }
       @media #{$xxxsmallMax} {
-        flex-direction: column;
+        display: block;
       }
     }
 
@@ -239,7 +239,7 @@ $xlargeMin: "screen and (min-width: 1801px)";
   }
   // .package-features
   .package-features {
-    flex: 1 1 25%;
+    flex: 1 1 35%;
     border-right: 1px solid $color-border;
     @media #{$mediumMax} {
       display: none;
