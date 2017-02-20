@@ -209,7 +209,7 @@
 		"oA": 0,
 		"oAP": "\/css\/cloud-pricing.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/css\/legacy-min.css": {
@@ -710,7 +710,7 @@
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-four@2x.png": {
 		"ft": 32768,
-		"iS": 12761,
+		"iS": 4653,
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-four@2x.png",
 		"oF": 0,
@@ -728,7 +728,7 @@
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-one@2x.png": {
 		"ft": 32768,
-		"iS": 5873,
+		"iS": 706,
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-one@2x.png",
 		"oF": 0,
@@ -746,7 +746,7 @@
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-three@2x.png": {
 		"ft": 32768,
-		"iS": 2849,
+		"iS": 677,
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-three@2x.png",
 		"oF": 0,
@@ -764,11 +764,11 @@
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-two@2x.png": {
 		"ft": 32768,
-		"iS": 5188,
+		"iS": 1089,
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-two@2x.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/images\/pricing-page-icons\/ic-question-mark.svg": {
 		"ft": 2097152,
