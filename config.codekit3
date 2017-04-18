@@ -7,7 +7,7 @@
 		"uuidString": "324315D1-4538-40A3-A6C6-396B9EA78935"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25813",
 "files": {
 	"\/_partials\/_pricing-block-commerce.kit": {
 		"ft": 2048,
@@ -300,7 +300,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/0479ee63260f32f7ae3c2b148bccbcb5eb24f6bf.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/adage.jpg": {
 		"ft": 16384,
@@ -308,7 +310,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/adage.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/amaze_partnersiteicon-7.jpg": {
 		"ft": 16384,
@@ -316,7 +320,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/amaze_partnersiteicon-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/ameex-logo.png": {
 		"ft": 32768,
@@ -324,7 +330,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/ameex-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/anjali-yakkundi.jpg": {
 		"ft": 16384,
@@ -332,7 +341,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/anjali-yakkundi.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/ascend_landingpage_illustrations-01.png": {
 		"ft": 32768,
@@ -340,7 +351,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/ascend_landingpage_illustrations-01.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/ascend_landingpage_illustrations-02.png": {
 		"ft": 32768,
@@ -348,7 +362,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/ascend_landingpage_illustrations-02.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/ascend_landingpage_illustrations-03.png": {
 		"ft": 32768,
@@ -356,7 +373,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/ascend_landingpage_illustrations-03.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/aspire-logo.png": {
 		"ft": 32768,
@@ -364,7 +384,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/aspire-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/avalara-logo-rgb.png": {
 		"ft": 32768,
@@ -372,7 +395,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/avalara-logo-rgb.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/bernadine-wu-bubble.jpg": {
 		"ft": 16384,
@@ -380,7 +406,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/bernadine-wu-bubble.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/brightfind.jpg": {
 		"ft": 16384,
@@ -388,7 +416,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/brightfind.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/business-leader.jpg": {
 		"ft": 16384,
@@ -396,7 +426,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/business-leader.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/developer.jpg": {
 		"ft": 16384,
@@ -404,7 +436,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/developer.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/ektron-track-img.jpg": {
 		"ft": 16384,
@@ -412,7 +446,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/ektron-track-img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/figleafsoftware.png": {
 		"ft": 32768,
@@ -420,7 +456,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/figleafsoftware.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/geta.png": {
 		"ft": 32768,
@@ -428,7 +467,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/geta.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/gold-sponsors-ascend-us-2017.jpg": {
 		"ft": 16384,
@@ -436,7 +478,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/gold-sponsors-ascend-us-2017.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/inriver-3d_small_jpg.jpg": {
 		"ft": 16384,
@@ -444,7 +488,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/inriver-3d_small_jpg.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/james-norwood-bubble(1).jpg": {
 		"ft": 16384,
@@ -452,7 +498,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/james-norwood-bubble(1).jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/james-norwood-bubble.jpg": {
 		"ft": 16384,
@@ -460,7 +508,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/james-norwood-bubble.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/making-waves-logo.png": {
 		"ft": 32768,
@@ -468,7 +518,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/making-waves-logo.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/marke-duffell-bubble.jpg": {
 		"ft": 16384,
@@ -476,7 +529,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/marke-duffell-bubble.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/marketer.jpg": {
 		"ft": 16384,
@@ -484,7 +539,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/marketer.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/merchandizer.jpg": {
 		"ft": 16384,
@@ -492,7 +549,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/merchandizer.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/microsoft-logo.png": {
 		"ft": 32768,
@@ -500,7 +559,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/microsoft-logo.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/mrobbins(1).jpg": {
 		"ft": 16384,
@@ -508,7 +570,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/mrobbins(1).jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/mrobbins.jpg": {
 		"ft": 16384,
@@ -516,7 +580,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/mrobbins.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/new_about_ascend.jpg": {
 		"ft": 16384,
@@ -524,7 +590,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/new_about_ascend.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/new_speakers.jpg": {
 		"ft": 16384,
@@ -532,7 +600,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/new_speakers.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/new_sponsors.jpg": {
 		"ft": 16384,
@@ -540,7 +610,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/new_sponsors.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/new_whos_attending.jpg": {
 		"ft": 16384,
@@ -548,7 +620,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/new_whos_attending.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/niteco.jpg": {
 		"ft": 16384,
@@ -556,7 +630,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/niteco.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/passing-zone-bubble(1).jpg": {
 		"ft": 16384,
@@ -564,7 +640,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/passing-zone-bubble(1).jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/passing-zone-bubble.jpg": {
 		"ft": 16384,
@@ -572,7 +650,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/passing-zone-bubble.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/scott-hanselman-bubble(1).jpg": {
 		"ft": 16384,
@@ -580,7 +660,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/scott-hanselman-bubble(1).jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/scott-hanselman-bubble.jpg": {
 		"ft": 16384,
@@ -588,7 +670,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/scott-hanselman-bubble.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/siteworx-new.png": {
 		"ft": 32768,
@@ -596,7 +680,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/siteworx-new.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/globalassets\/smith_logo_2.jpg": {
 		"ft": 16384,
@@ -604,7 +691,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/smith_logo_2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/suyati.jpg": {
 		"ft": 16384,
@@ -612,7 +701,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/suyati.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/tech-leader.jpg": {
 		"ft": 16384,
@@ -620,7 +711,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/tech-leader.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/translations-logo.jpg": {
 		"ft": 16384,
@@ -628,7 +721,9 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/translations-logo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/globalassets\/whereoware.png": {
 		"ft": 32768,
@@ -636,7 +731,10 @@
 		"oA": 0,
 		"oAP": "\/globalassets\/whereoware.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons.zip": {
 		"ft": 8192,
@@ -660,7 +758,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-attention@2x.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-close.svg": {
 		"ft": 2097152,
@@ -678,7 +779,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-close@2x.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-done.svg": {
 		"ft": 2097152,
@@ -696,7 +800,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-done@2x.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-four.svg": {
 		"ft": 2097152,
@@ -714,7 +821,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-four@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-one.svg": {
 		"ft": 2097152,
@@ -732,7 +842,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-one@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-three.svg": {
 		"ft": 2097152,
@@ -750,7 +863,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-three@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-price-lv-two.svg": {
 		"ft": 2097152,
@@ -768,7 +884,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-price-lv-two@2x.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/pricing-page-icons\/ic-question-mark.svg": {
 		"ft": 2097152,
@@ -786,7 +905,10 @@
 		"oA": 0,
 		"oAP": "\/images\/pricing-page-icons\/ic-question-mark@2x.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -1592,6 +1714,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1792,6 +1918,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1869,6 +1999,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2068,6 +2202,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2119,6 +2257,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2213,6 +2355,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2659,7 +2805,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2682,14 +2829,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2752,7 +2891,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
