@@ -494,7 +494,8 @@ $xlargeMin: "screen and (min-width: 1801px)";
     }
 
     &__cta-button {
-      margin: 30px;
+      font-size: 1rem;
+      margin: 30px 15px;
       @media #{$xsmallMax} {
         margin: 15px;
       }
